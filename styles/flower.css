@@ -4,3 +4,63 @@
   font-weight: 400;
   font-style: normal;
 }
+body {
+    background: rgb(245, 248, 255);
+}
+
+/*shared styles*/
+.display-flex{
+    display:flex; 
+}
+
+.gray1{
+    color: #8987A1;
+}
+.black{
+    color: #000000;
+}
+.color2{
+    color: #E95A08;
+}
+
+/*navbar related style*/
+.logo {
+    width: 150px;
+    height: 80px;
+}
+.container{
+    max-width:  1140px;
+    margin:0 auto;
+}
+.home{
+    color:#252432;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar{
+    margin: auto;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+
+}
+.nav-right {
+    margin-right: 2.5rem;
+    white-space: nowrap;
+}
+.nav-right ul{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+        gap: 48px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+.cart-part {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
