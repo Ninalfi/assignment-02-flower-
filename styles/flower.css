@@ -31,6 +31,7 @@ body {
 .container{
     max-width:  1140px;
     margin:0 auto;
+    width: 100%;
 }
 .home{
     color:#252432;
@@ -38,6 +39,8 @@ body {
     font-weight: bold;
 }
 .navbar{
+    max-width: 1140px;
+    width: 100%;
     margin: auto;
     margin-top: 1.5rem;
     justify-content: space-between;
@@ -54,10 +57,14 @@ body {
     list-style: none;
     text-align: center;
     align-items: center;
-        gap: 48px;
+    gap: 48px;
 }
 nav ul li a {
     text-decoration: none;
+}
+.links {
+    margin-right: 2.5rem;
+    white-space: nowrap;
 }
 .cart-part {
     display: flex;
@@ -89,4 +96,94 @@ nav ul li a {
     width: 650px;
     height: 400px;
     margin-top: -170px;
+}
+/*Our plants part*/
+.plant-section{
+   align-items: center;
+    max-width: 1140px;
+    margin: auto;
+    margin-top: -80px;
+}
+.plant-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.plant-para{
+    margin-left: 350px;
+    margin-top:-20px;
+}
+ .cart-part{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+ }
+ .lilly{
+     margin-left: 90px;
+ }
+ .blossom{
+    color: #111111;
+    font-size: 22px;
+    font-weight:medium;
+}
+.money{
+    margin-left: 10px;
+    margin-top: -7px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Inter; 
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border:none;
+    width: 270px;
+    height: 50px;
+    margin-top: -5px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+@media screen and (max-width: 576px){
+
+.links:not(.cart-link) {
+    display: none;
+  }
+.navbar{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+  .cart-part {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+   .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1rem;
+    margin-top: 50px;
+  }
+  .banner-pic{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    order: -1;
+    text-align: center;
+  }
+  .banner-description{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  .title{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .paragraph{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
 }
