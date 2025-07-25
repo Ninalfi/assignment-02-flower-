@@ -350,6 +350,17 @@ p {
     font-weight: 400;
     margin-right: 0px;
 }
+.join button {
+    all: unset;
+    width: 186px;
+    height: 50px;
+    background: rgb(233, 90, 8);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 @media screen and (max-width: 576px){
@@ -420,11 +431,11 @@ p {
         margin-left: 10px;
     }
 
-    .plant-lover-text h3 {
+    .plant-text h3 {
         margin-left: 20px;
     }
 
-    .plant-lover-text li {
+    .plant-text li {
         margin-left: 40px;
         margin-right: 20px;
     }
@@ -465,5 +476,21 @@ p {
         font-family: Inter;
         font-size: 1rem;
         font-weight: 600;
+    }
+    .join {
+        max-width: 100%;
+        max-height: 275px;
+    }
+
+    .join h3 {
+        font-size: 2rem;
+    }
+
+    .join input {
+        width: 255px;
+    }
+
+    .join button {
+        width: 100px;
     }
 }
