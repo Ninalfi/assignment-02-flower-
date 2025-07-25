@@ -98,109 +98,108 @@ nav ul li a {
     margin-top: -170px;
 }
 /*Our plants part*/
-.plant-section{
-   align-items: center;
-    max-width: 1140px;
-    margin: auto;
-    margin-top: -80px;
+.plant {
+    font-family: Noto Serif;
+    font-size: 3.2rem;
+    font-weight: 700;
 }
-.plant-title{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-left: 450px;
-}
-.plant-para{
-    margin-left: 350px;
-    margin-top:-20px;
 
+.plant-section {
+    text-align: center;
+    margin-top: 40px;
 }
- .cart-part{
+
+.plant-section h3,
+p {
+    margin-top: 20px;
+}
+
+.grid-container {
+    text-align: center;
+}
+
+.grid-container h4 {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.grid-container img {
+    max-width: 220px;
+}
+
+.grid-container p {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.grid-container button {
+    all: unset;
+    background: rgb(233, 90, 8);
+    margin-top: 15px;
+    padding: 10px 55px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.grid {
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:20px;
- }
- .lilly{
-     margin-left: 90px;
- }
- .blossom{
-    color: #111111;
-    font-size: 22px;
-    font-weight:medium;
-}
-.cart h4{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: Inter;
-    margin-left: 10px;
-    margin-top: -7px;
-}
-.btn-primary{
-    color: #FFFFFF;
-    background-color: #E95A08;
-    border:none;
-    width: 270px;
-    height: 50px;
-    margin-top: -5px;
-}
-.btn-primary:hover{
-    cursor: pointer;
-    background-color: aquamarine;
+    gap: 38px;
 }
 
-/*Plant Lover Section*/
-.lovers-description{
-    width: 100%;
-    max-width: 1140px;
-    margin: 180px auto 0;
+.plant-lover {
+    margin-top: 100px;
     justify-content: space-between;
-    align-items: flex-start;
-}
-.lovers-description{
-  width: 540px;
-  height: 597px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: -20px;
-}
-.plant-lover-pic{
-  position: relative;
-  width: 540px;
-  height: 597px;
-}
-.picture{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-.badge {
-  position: absolute;
-  top: -120px;
-  right: -90px;
-  width: 286px;
-  height: 286px;
+    gap: 80px;
+    align-items: center;
+
 }
 
-.lovers-title{
-  color: #000;
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 50px;
+
+
+.plant-lover-text h3 {
+    color: rgb(0, 0, 0);
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
 }
-.points{
-  font-size: 22px;
-  list-style: disc;
-  padding-left: 30px;
-  line-height: 1.4;
-  margin-top: -20px;
+
+.plant-lover-text li {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
 }
-.lovers-li{
-  margin-top: 20px;
+.plant-lover-img-wrapper {
+    position: relative;
+    width: 100%;
 }
-.badge{
-  animation: spin 3s linear infinite;
+
+
+.trusted-badge {
+    position: absolute;
+    top: -85px;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    z-index: 10;
 }
+
+.trusted-badge {
+    animation: spin 0.2s linear infinite;
+}
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -210,65 +209,217 @@ nav ul li a {
         transform: rotate(360deg);
     }
 }
+.bloom {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 366.22px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+
+.bloom h3 {
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bloom a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ana {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../assets/deal-ana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 366.22px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+
+.ana h3 {
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ana a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.zabo {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 753px;
+    height: 423.13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+}
+
+.zabo h3 {
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.zabo a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.blooms {
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.blooms-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 @media screen and (max-width: 576px){
 
-.links:not(.cart-link) {
-    display: none;
+  .hide-mobile{
+   display: none;
   }
 .navbar{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
-}
-  .cart-part {
+  }
+.cart-part {
     display: flex;
     align-items: center;
     gap: 0.3rem;
   }
-   .banner {
+.banner {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 1rem;
-    margin-top: 50px;
+    margin-bottom: 30px;
   }
-  .banner-pic{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    order: -1;
-    text-align: center;
+.banner-pic{
+    margin-bottom:  0px;
   }
-  .banner-description{
-    width: 100%;
-    height: auto;
-    margin-top: 1rem;
+.banner-description{
+        text-align: start;
+        margin-left: 20px;
+       margin-right: 40px;
+        margin-top: -50px;
   }
-  .title{
+.title{
     font-size: 2rem;
+    margin-top: 30px;
     line-height: 2.5rem;
   }
-  .paragraph{
+.paragraph{
     margin-top: 0.5rem;
-    font-size: 1rem;
+    margin-right: 20px;
   }
-  .plant-title, .plant-para{
-    text-align: center;
-    margin-left: 0;
-  }
-  .plant-para{
-    padding: 0 1rem;
-    margin-top: 0.5rem;
-  }
-  .cart-part{
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 1rem;
-  }
-   .lilly {
-    margin-left: 0;
-    text-align: center;
-  }
-    .btn-primary {
-    width: 100%;
-  }
+  .plant-section {
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5px;
+
+    }
+
+    .grid-container img {
+        max-width:80%;
+    }
+
+    .grid-container {
+        margin-left: 5px;
+    }
+
+    .grid-container button {
+        padding: 3% 10%;
+    }
+
+    .plant-lover {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .plant-lover-text h3 {
+        margin-left: 20px;
+    }
+
+    .plant-lover-text li {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    
+
+    .blooms {
+        flex-direction: column;
+    }
+
+    .bloom {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left:5%;
+    }
+
+    .ana {
+        width: 90%;
+        margin-left:5%;
+    }
+
+    .zabo {
+        width: 90%;
+        margin-left:5%;
+        height: 206px;
+    }
+
+    .zabo h3 {
+        color: rgb(255, 255, 255);
+        font-family: Noto Serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .zabo a {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 }
