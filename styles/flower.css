@@ -186,4 +186,23 @@ nav ul li a {
     margin-top: 0.5rem;
     font-size: 1rem;
   }
+  .plant-title, .plant-para{
+    text-align: center;
+    margin-left: 0;
+  }
+  .plant-para{
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+  }
+  .cart-part{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
+  }
+   .lilly {
+    margin-left: 0;
+    text-align: center;
+  }
+    .btn-primary {
+    width: 100%;
+  }
 }
